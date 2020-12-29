@@ -1,5 +1,5 @@
 """This module relates to a Think Python, 2nd Edition case study.
-It prints how many hands are dealt before achieving a specific winning 
+It prints how many hands on average are dealt before achieving a specific winning 
 hand in poker.
 """
 
