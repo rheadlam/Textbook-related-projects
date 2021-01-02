@@ -49,7 +49,7 @@ def process_line(line, hist):
     Modifies hist.
 
     line: string
-    hist: histogram mapping words to coreesponding frequency
+    hist: histogram mapping words to corresponding frequency
     """
 
     line = line.replace('-', ' ')
