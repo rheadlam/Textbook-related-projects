@@ -129,13 +129,13 @@ def subtract(d1, d2, num=15):
                 break
     return res
 
-def print_diff_words(hist1, hist2):
+def print_diff_words(hist_A, hist_B):
     """Prints words in flatland.txt not in words.txt.
     
-    hist1: word-frequency histogram from flatland.txt
-    hist2: word-frequency histogram from words.txt 
+    hist_A: word-frequency histogram from flatland.txt
+    hist_B: word-frequency histogram from words.txt 
     """
-    t = subtract(hist1, hist2)
+    t = subtract(hist_A, hist_B)
     print("\n\nWords in flatland.txt not in words.txt:")
     for word in t.keys():
         print(word,end=' ')
